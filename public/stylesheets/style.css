@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /* background-color: #F8C3CD; */
+  background-image: url(https://i.imgur.com/KAM3uEW.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+::placeholder {
+  font-size: 12px;
+}
+
+.card {
+  /* border: 1px solid #1b1b1b; */
+  border-radius: 16px;
+  background-color: #be130d;
+  padding: 32px 24px;
+}
+
+.card-img {
+  width: 150px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.card-text {
+  font-size: 32px;
+}
+
+.card-input {
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-right: 8px;
+  border: none;
+}
+
+.card-btn {
+  background-color: #261E47;
+  color: white;
+  padding: 8px 16px 9px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.card-btn:hover {
+  background-color: white;
+    color: #261E47;
+}
